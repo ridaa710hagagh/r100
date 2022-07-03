@@ -9,10 +9,10 @@ PM_START_TEXT = """
 ‣ **استطيع تشغيل المقاطع الصوتية في المكالمة**.
 ‣ **استطيع حظر و كتم اي مستخدم**.
 ‣ **افضل بوت من ناحية المميزات**
-‣ **يعتمد على مكتبة التيليثون لذلك يكون البوت سريع**!
+‣ **يعمل من منصة ابن الدورة لذلك يكون البوت سريع**!
 ‣ **اكتشف الباقي بنفسك**.
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖
-✘ **اضغط على الاسفل لعرض الاوامر الخاص ه بي**.
+✘ **اضغط على الاسفل لعرض الاوامر الخاصه بي**.
 """
 
 @R0R77.on(events.NewMessage(pattern="^[?!/]start$"))
@@ -24,7 +24,7 @@ async def start(event):
              caption=PM_START_TEXT.format(event.sender.first_name), 
              buttons=[
         [Button.url("➕ اضغط هنا لأضافتي", f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-        [Button.url("السورس", "https://github.com/R0R77/Telethon-Music")],
+        [Button.url("السورس", "https://t.me/x02x2")],
         [Button.url("الدعم", f"https://t.me/{Config.SUPPORT}"), Button.url("القناة", f"https://t.me/{Config.CHANNEL}")],
         [Button.inline("الاوامر", data="help")]])
        return
@@ -40,7 +40,7 @@ async def _(event):
     if event.is_private:
        await event.edit(PM_START_TEXT.format(event.sender.first_name), buttons=[
         [Button.url("➕ اضغط هنا لاضافتي", f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-        [Button.url("السورس", "https://github.com/R0R77/Telethon-Music")],
+        [Button.url("السورس", "https://t.me/x02x2")],
         [Button.url("الدعم", f"https://t.me/{Config.SUPPORT}"), Button.url("القناة", f"https://t.me/{Config.CHANNEL}")],
         [Button.inline("الاوامر", data="help")]])
        return
