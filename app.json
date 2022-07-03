@@ -1,6 +1,6 @@
 {
-    "name": "Telethon Music Bot",
-    "description": "Music allow you to stream music trought the telegram voice chat feature Based on Telethon.",
+    "name": "سورس ابن الدورة ",
+    "description": "سورس ابن الدورة للتنصيب بوتات الاغاني @x02x2",
     "keywords": ["JMTHON", "JMTHON-MUSIC", "music", "voice chat", "telegram", "Yukki", "Yukki Music", "Private Music", "telethon"],
     "repository": "https://github.com/R0R77/Telethon-Music",
   "stack": "container",
